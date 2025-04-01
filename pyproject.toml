@@ -13,8 +13,8 @@ pyautogui = "^0.9.54"
 
 [tool.poetry.scripts]
 grises = "hands:grises"
-normal = "hands:normal"
 manos = "hands:detectHands"
+normal = "hands:normal"
 
 [build-system]
 requires = ["poetry-core"]
